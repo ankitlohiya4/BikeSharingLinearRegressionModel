@@ -1,5 +1,8 @@
 # Project Name
-> Outline a brief description of your project.
+> This case study is to understand 
+- Which variables are significant in predicting the demand for shared bikes.
+- How well those variables describe the bike demands.
+- To create a linear model that quantitatively relates the demand for shared bikes with the available independent variables.
 
 
 ## Table of Contents
@@ -11,38 +14,47 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+
+Essentially, the company wants —
+- Which variables are significant in predicting the demand for shared bikes.
+- How well those variables describe the bike demands.
+- To create a linear model that quantitatively relates the demand for shared bikes with the available independent variables.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+The equation of our best fitted line is:
+- $ cnt = 0.2331  \times  yr + 0.0515  \times  workingday + 0.6022 \times temp - 0.1388 \times windspeed + 0.1052 \times Winter + 0.0617 \times Sat - 0.2546 \times Light Rain + 0.0531 $
+
+The variables that are significant in predicting the demand for shared bikes are
+- temp
+- yr
+- Winter
+
+The demand of the bike increases by
+- 0.6022 times with increase in 1 uint of tempereature provided all other variables remain constant
+- 0.2331 times with increase in 1 year provided all other variables remain constant
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- numpy - version 1.21.5
+- pandas - version 1.4.2
+- matplotlib - version 3.5.1
+- seaborn - version 0.11.2
+- statsmodels - version 0.13.5
+- sklearn - version 1.1.3
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project is done as part of Execution PG on ML & AI from upgrade with partnership with IIITB
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@ankitlohiya4] - feel free to contact me!
 
 
 <!-- Optional -->
