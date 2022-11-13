@@ -25,7 +25,7 @@ Essentially, the company wants —
 
 ## Conclusions
 The equation of our best fitted line is:
-- $ cnt = 0.2331  \times  yr + 0.0515  \times  workingday + 0.6022 \times temp - 0.1388 \times windspeed + 0.1052 \times Winter + 0.0617 \times Sat - 0.2546 \times Light Rain + 0.0531 $
+- cnt = 0.2331 * yr  +  0.0515 * workingday  +  0.6022 * temp  -  0.1388 * windspeed  +  0.1052 * Winter + 0.0617 * Sat  -  0.2546 * Light Rain  +  0.0531
 
 The variables that are significant in predicting the demand for shared bikes are
 - temp
